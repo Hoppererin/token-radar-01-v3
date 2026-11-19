@@ -1,8 +1,8 @@
 # token-radar-01-v3
 
 [![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
-[![rank](https://make.fun/badge/token-radar-01/geishakampret/token-radar-01-v3/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
-[![reward](https://make.fun/badge/token-radar-01/geishakampret/token-radar-01-v3/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/Hoppererin/token-radar-01-v3/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/Hoppererin/token-radar-01-v3/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
 
 A token launch radar for make.fun: it ranks all 226 pre-token protocols in the frozen DefiLlama snapshot by the value their own figures imply, and gives each one a concrete six-step farm plan. The model is fit at run time from the snapshot's 128 token-bearing protocols — a grouped comps curve (shrunk category-group medians on ln(market cap) vs ln(TVL)) blended 80/20 with a median (L1) regression that also reads seven-day growth, age and chains. Validation on the same protocol for every number: 5-fold CV 1.27, walk-forward 1.04, blind 20% hold-out median error −6.4% in levels with 29% of predictions inside ±30% (the single global curve it replaces scores 1.29 / 1.13 / −19.5%).
 
